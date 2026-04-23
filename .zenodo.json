@@ -1,0 +1,38 @@
+{
+  "title": "Artifact: Machine-Checked Pipeline Composition for Masked NTT Hardware",
+  "description": "Machine-checked Lean 4 + Mathlib proof suite for first-order arithmetic masking composition across pipelined NTT stages. Closes the r-free gap left open by the Paper 3 artifact via the r-bearing bridge (Theorem t1_r_bearing), then proves the Cooley-Tukey butterfly has exactly one fresh-mask value producing each output value (Theorem butterfly_wire_count_eq_one), which yields per-context uniformity of the k-stage pipeline (Theorem ntt_pipeline_composition). All theorems kernel-verified with zero sorry, zero admit, zero axiom. Companion to arXiv:2604.20793.",
+  "creators": [
+    {
+      "name": "Iskander, Ray",
+      "orcid": "0009-0008-7971-4992"
+    },
+    {
+      "name": "Kirah, Khaled",
+      "orcid": "0000-0001-5090-2529"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "post-quantum cryptography",
+    "masking",
+    "formal verification",
+    "Lean 4",
+    "Mathlib",
+    "NTT",
+    "ML-KEM",
+    "ML-DSA",
+    "probing model",
+    "pipeline composition",
+    "butterfly",
+    "fresh randomness"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "2604.20793",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv"
+    }
+  ]
+}

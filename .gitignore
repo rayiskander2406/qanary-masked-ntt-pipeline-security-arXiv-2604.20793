@@ -1,0 +1,22 @@
+# Lean build artifacts (root level only)
+/.lake/
+/lake-packages/
+/build/
+/.cache/
+*.olean
+*.ilean
+*.trace
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# This is the lean-public artifact repo — software/scripts only. The
+# manuscript itself lives authoritatively on arXiv (2604.20793). Any
+# paper-derivative files (.docx, .pdf, .tex, .bib, gist, correspondence,
+# camera-ready sources) belong in the private working repo, not here.
+# The reproduce.py cleanliness gate rejects these extensions tree-wide.
+*.verification.log

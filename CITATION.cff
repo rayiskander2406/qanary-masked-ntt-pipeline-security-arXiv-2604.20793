@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Artifact: Machine-Checked Pipeline Composition for Masked NTT Hardware"
+type: software
+authors:
+  - family-names: Iskander
+    given-names: Ray
+    orcid: "https://orcid.org/0009-0008-7971-4992"
+  - family-names: Kirah
+    given-names: Khaled
+    orcid: "https://orcid.org/0000-0001-5090-2529"
+version: 1.0.0
+date-released: "2026-04-23"
+license: MIT
+repository-code: "https://github.com/rayiskander2406/qanary-masked-ntt-pipeline-security-arXiv-2604.20793"
+keywords:
+  - post-quantum cryptography
+  - masking
+  - formal verification
+  - Lean 4
+  - Mathlib
+  - NTT
+  - ML-KEM
+  - ML-DSA
+  - probing model
+  - pipeline composition
+  - butterfly
+  - fresh randomness
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Iskander
+      given-names: Ray
+      orcid: "https://orcid.org/0009-0008-7971-4992"
+    - family-names: Kirah
+      given-names: Khaled
+      orcid: "https://orcid.org/0000-0001-5090-2529"
+  title: "Fresh Masking Makes NTT Pipelines Composable: Machine-Checked Proofs for Arithmetic Masking in PQC Hardware"
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2604.20793"
+      description: "arXiv preprint"
