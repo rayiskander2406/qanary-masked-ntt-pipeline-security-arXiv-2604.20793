@@ -6,6 +6,8 @@
 [![Mathlib](https://img.shields.io/badge/Mathlib-322515540d7f-green)](https://github.com/leanprover-community/mathlib4)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Sorry-Free](https://img.shields.io/badge/sorry-0-brightgreen)]()
+[![arXiv](https://img.shields.io/badge/arXiv-2604.20793-b31b1b.svg)](https://arxiv.org/abs/2604.20793)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19705450.svg)](https://doi.org/10.5281/zenodo.19705450)
 
 Machine-checked universal proofs that first-order arithmetic masking
 composes securely across pipelined Number Theoretic Transform (NTT)
@@ -238,6 +240,29 @@ If you use this artifact, please cite the paper:
   eprint  = {2604.20793},
   archivePrefix = {arXiv},
   primaryClass  = {cs.CR},
+}
+```
+
+To cite this specific artifact (Lean 4 proof suite) with a persistent
+identifier, use the Zenodo DOI:
+
+- **Concept DOI** (always resolves to the latest version — cite this
+  for "the artifact" generally):
+  [`10.5281/zenodo.19705450`](https://doi.org/10.5281/zenodo.19705450)
+- **v1.0.0 Version DOI** (fixed to commit `64c3017`, for bit-for-bit
+  reproducibility pinning):
+  [`10.5281/zenodo.19705451`](https://doi.org/10.5281/zenodo.19705451)
+
+```bibtex
+@software{IskanderKirah2026FreshMaskingArtifact,
+  author  = {Ray Iskander and Khaled Kirah},
+  title   = {Artifact: Machine-Checked Pipeline Composition for
+             Masked NTT Hardware (arXiv:2604.20793)},
+  year    = {2026},
+  publisher = {Zenodo},
+  version = {v1.0.0},
+  doi     = {10.5281/zenodo.19705450},
+  url     = {https://doi.org/10.5281/zenodo.19705450},
 }
 ```
 
